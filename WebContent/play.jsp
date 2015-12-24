@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
- <link rel="stylesheet" type="text/css" href="style.css"> 
+<link rel="stylesheet" type="text/css" href="style.css">
 <title>Play Lottery</title>
 </head>
 
@@ -31,7 +31,7 @@
 				<c:forEach var="num" items="${yourpicks}">
 					<c:out value="${num }" />
 				</c:forEach>
-				<br/>
+				<br />
 				<p>Winning Numbers</p>
 				<c:forEach var="win" items="${winningnumbers}">
 					<c:out value="${win }" />
